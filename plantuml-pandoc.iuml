@@ -1,0 +1,11 @@
+@startuml
+!include <C4/C4_Container>
+left to right direction
+scale 2500 width
+
+System_Boundary(c1, "Plantuml-Pandoc") {
+    Container(Plantuml_Pandoc, "Container A", "Plantuml,Pandoc \
+    ", "one container is included plantuml and pandoc for createing HTML or PDF file")
+}
+
+@enduml
